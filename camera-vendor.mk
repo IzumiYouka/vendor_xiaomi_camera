@@ -11,22 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camera/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml \
     vendor/xiaomi/camera/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
     vendor/xiaomi/camera/proprietary/system/etc/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-xiaomi.txt \
-    vendor/xiaomi/camera/proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_algoup_jni.xiaomi.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_mianode_jni.xiaomi.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/libmicampostproc_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmicampostproc_client.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/libmisys_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmisys_jni.xiaomi.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@2.0.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/camera/proprietary/system/lib64/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.xiaomi.hardware.misys@4.0.so \
-    vendor/xiaomi/camera/proprietary/system_ext/lib/libOpenCL_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libOpenCL_system.so \
-    vendor/xiaomi/camera/proprietary/system_ext/lib64/libOpenCL_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libOpenCL_system.so \
-    vendor/xiaomi/camera/proprietary/vendor/bin/f2player:$(TARGET_COPY_OUT_VENDOR)/bin/f2player \
-    vendor/xiaomi/camera/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@1.0-service \
-    vendor/xiaomi/camera/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@2.0-service \
-    vendor/xiaomi/camera/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@3.0-service \
-    vendor/xiaomi/camera/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@4.0-service \
     vendor/xiaomi/camera/proprietary/vendor/camera/fonts/FZMiaoWuJW.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/FZMiaoWuJW.ttf \
     vendor/xiaomi/camera/proprietary/vendor/camera/fonts/MFYueYuan-Regular.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/MFYueYuan-Regular.ttf \
     vendor/xiaomi/camera/proprietary/vendor/camera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/MI+LanTing_GB+Outside+YS_V2.3_20160322.ttf \
@@ -56,32 +40,47 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camera/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
     vendor/xiaomi/camera/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
     vendor/xiaomi/camera/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
-    vendor/xiaomi/camera/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/lib_sr_models.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_sr_models.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/libarcsat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsat.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/libbeauty_face_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbeauty_face_interface.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/libcheckpid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcheckpid.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/libflaw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflaw.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/liblogwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblogwrap_vendor.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/librelight_only.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librelight_only.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/libsdk_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdk_sr.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/libsupermoon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsupermoon.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@1.0.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@2.0.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@3.0.so \
-    vendor/xiaomi/camera/proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.misys@4.0.so
+    vendor/xiaomi/camera/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc
 
 PRODUCT_PACKAGES += \
+    libcamera_algoup_jni.xiaomi \
+    libcamera_mianode_jni.xiaomi \
+    libmicampostproc_client \
+    libmisys_jni.xiaomi \
+    vendor.xiaomi.hardware.campostproc@1.0 \
+    vendor.xiaomi.hardware.misys@1.0 \
+    vendor.xiaomi.hardware.misys@2.0 \
+    vendor.xiaomi.hardware.misys@3.0 \
+    vendor.xiaomi.hardware.misys@4.0 \
+    vendor.xiaomi.hardware.misys@1.0-impl \
+    vendor.xiaomi.hardware.misys@2.0-impl \
+    vendor.xiaomi.hardware.misys@3.0-impl \
+    vendor.xiaomi.hardware.misys@4.0-impl \
+    lib_sr_models \
+    libarcsat \
+    libbeauty_face_interface \
+    libcheckpid \
+    libflaw \
+    liblogwrap_vendor \
+    librelight_only \
+    libsdk_sr \
+    libsupermoon \
+    vendor.xiaomi.hardware.misys@1.0 \
+    vendor.xiaomi.hardware.misys@2.0 \
+    vendor.xiaomi.hardware.misys@3.0 \
+    vendor.xiaomi.hardware.misys@4.0 \
+    libOpenCL_system \
     MiuiCamera \
     vendor.xiaomi.hardware.misys-V1.0-java \
     vendor.xiaomi.hardware.misys-V2.0-java \
     vendor.xiaomi.hardware.misys-V4.0-java \
     vendor.xiaomi.hardware.misys.V3_0 \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    vendor.xiaomi.hardware.misys@4.0
+    vendor.xiaomi.hardware.misys@1.0.xml \
+    vendor.xiaomi.hardware.misys@2.0.xml \
+    vendor.xiaomi.hardware.misys@3.0.xml \
+    vendor.xiaomi.hardware.misys@4.0.xml \
+    f2player \
+    vendor.xiaomi.hardware.misys@1.0-service \
+    vendor.xiaomi.hardware.misys@2.0-service \
+    vendor.xiaomi.hardware.misys@3.0-service \
+    vendor.xiaomi.hardware.misys@4.0-service
