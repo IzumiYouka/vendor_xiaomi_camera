@@ -66,7 +66,6 @@ PRODUCT_PACKAGES += \
 # System Properties
 PRODUCT_SYSTEM_PROPERTIES += \
     persist.vendor.camera.privapp.list=com.android.camera \
-    ro.com.google.lens.oem_camera_package=com.android.camera \
-    vendor.camera.aux.packagelist=com.android.camera,org.pixelexperience.faceunlock
+    ro.com.google.lens.oem_camera_package=com.android.camera
 
 $(call inherit-product, $(CAMERA_PATH)/camera-vendor.mk)
