@@ -43,32 +43,32 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/camera/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc
 
 PRODUCT_PACKAGES += \
+    libmisys_jni.xiaomi \
+    vendor.xiaomi.hardware.misys@1.0_system \
+    vendor.xiaomi.hardware.misys@2.0_system \
+    vendor.xiaomi.hardware.misys@3.0_system \
+    vendor.xiaomi.hardware.misys@4.0_system \
     libcamera_algoup_jni.xiaomi \
     libcamera_mianode_jni.xiaomi \
     libmicampostproc_client \
-    libmisys_jni.xiaomi \
     vendor.xiaomi.hardware.campostproc@1.0 \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    vendor.xiaomi.hardware.misys@4.0 \
     vendor.xiaomi.hardware.misys@1.0-impl \
     vendor.xiaomi.hardware.misys@2.0-impl \
     vendor.xiaomi.hardware.misys@3.0-impl \
     vendor.xiaomi.hardware.misys@4.0-impl \
-    lib_sr_models \
-    libarcsat \
-    libbeauty_face_interface \
     libcheckpid \
-    libflaw \
     liblogwrap_vendor \
-    librelight_only \
-    libsdk_sr \
-    libsupermoon \
     vendor.xiaomi.hardware.misys@1.0 \
     vendor.xiaomi.hardware.misys@2.0 \
     vendor.xiaomi.hardware.misys@3.0 \
     vendor.xiaomi.hardware.misys@4.0 \
+    lib_sr_models \
+    libarcsat \
+    libbeauty_face_interface \
+    libflaw \
+    librelight_only \
+    libsdk_sr \
+    libsupermoon \
     libOpenCL_system \
     MiuiCamera \
     vendor.xiaomi.hardware.misys-V1.0-java \
