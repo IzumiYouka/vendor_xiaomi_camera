@@ -31,10 +31,8 @@ function vendor_imports() {
     cat <<EOF >>"$1"
                 "device/xiaomi/alioth",
 		"device/xiaomi/sm8250-common",
-        "hardware/qcom-caf/common/libqti-perfd-client",
 		"hardware/qcom-caf/sm8250",
-		"hardware/qcom-caf/wlan",
-        "hardware/xiaomi",
+                "hardware/xiaomi",
 		"vendor/qcom/opensource/commonsys/display",
 		"vendor/qcom/opensource/commonsys-intf/display",
 		"vendor/qcom/opensource/dataservices",
