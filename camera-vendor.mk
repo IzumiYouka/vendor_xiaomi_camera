@@ -69,6 +69,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys-V2.0-java \
     vendor.xiaomi.hardware.misys-V4.0-java \
     vendor.xiaomi.hardware.misys.V3_0 \
+    camerax-vendor-extensions \
     vendor.xiaomi.hardware.misys@1.0.xml \
     vendor.xiaomi.hardware.misys@2.0.xml \
     vendor.xiaomi.hardware.misys@3.0.xml \
