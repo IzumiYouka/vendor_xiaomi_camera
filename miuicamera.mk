@@ -57,6 +57,10 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     $(CAMERA_PATH)/sepolicy/misys/public
 
+# Qualcomm Gralloc
+PRODUCT_PACKAGES += \
+     gralloc.qcom
+
 # MiSys HIDL deps
 PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
