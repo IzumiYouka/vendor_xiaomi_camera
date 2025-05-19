@@ -1,2 +1,0 @@
-# Camera
-vendor.xiaomi.hardware.campostproc::IMiPostProcService       u:object_r:hal_xiaomi_camera_hwservice:s0

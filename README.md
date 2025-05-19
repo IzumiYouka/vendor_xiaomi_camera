@@ -1,16 +1,15 @@
 # proprietary_vendor_xiaomi_camera
 
-Prebuilt stock MIUI/Leica Camera for Poco F3/Redmi K40/Mi 11x (alioth), to include in custom ROM builds.
+Prebuilt modded MIUI/Leica Camera 5.0 for Poco F3/Redmi K40/Mi 11x (alioth), to include in custom ROM builds.
 
 ### How to use?
 
 1. Clone this repo to `vendor/xiaomi/camera`
-
-2. Inherit it from `device.mk` in device tree:
-
+2. Clone https://github.com/PocoF3Releases/device_xiaomi_camera to 'device/xiaomi/camera'
+3. Inherit it from `device.mk` in device tree:
 ```
 # Camera
-$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+$(call inherit-product-if-exists, device/xiaomi/camera/miuicamera.mk)
 ```
 
 3. Ensure that you added misys vintf dependencies in your framework_compatibility_matrix.xml:
@@ -28,4 +27,4 @@ $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
         </interface>
     </hal>
 ```
-3.1 Reference - https://github.com/VoidUI-Devices/device_xiaomi_sm8250-common/commit/c8ae872b8fdbc682da0f98a2031125d68ef0afe9
+3.1 Reference - https://github.com/PocoF3Releases/device_xiaomi_sm8250-common/commit/26b57664835c487db278dbda83fe936ceb831c63
