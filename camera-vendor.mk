@@ -82,3 +82,9 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@2.0-service \
     vendor.xiaomi.hardware.misys@3.0-service \
     vendor.xiaomi.hardware.misys@4.0-service
+
+PRODUCT_BOOT_JARS += \
+    vendor.xiaomi.hardware.misys-V1.0-java \
+    vendor.xiaomi.hardware.misys-V2.0-java \
+    vendor.xiaomi.hardware.misys-V4.0-java \
+    vendor.xiaomi.hardware.misys.V3_0
