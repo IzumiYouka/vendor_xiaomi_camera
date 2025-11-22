@@ -6,10 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/camera
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/camera/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml \
-    vendor/xiaomi/camera/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
-    vendor/xiaomi/camera/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml \
-    vendor/xiaomi/camera/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
     vendor/xiaomi/camera/proprietary/system/etc/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-xiaomi.txt \
     vendor/xiaomi/camera/proprietary/vendor/camera/fonts/FZMiaoWuJW.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/FZMiaoWuJW.ttf \
     vendor/xiaomi/camera/proprietary/vendor/camera/fonts/MFYueYuan-Regular.ttf:$(TARGET_COPY_OUT_VENDOR)/camera/fonts/MFYueYuan-Regular.ttf \
@@ -69,10 +65,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@4.0 \
     MiuiCamera \
     camerax-vendor-extensions \
-    vendor.xiaomi.hardware.misys-V1.0-java \
-    vendor.xiaomi.hardware.misys-V2.0-java \
-    vendor.xiaomi.hardware.misys-V4.0-java \
-    vendor.xiaomi.hardware.misys.V3_0 \
     vendor.xiaomi.hardware.misys@1.0.xml \
     vendor.xiaomi.hardware.misys@2.0.xml \
     vendor.xiaomi.hardware.misys@3.0.xml \
@@ -84,8 +76,4 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@4.0-service
 
 PRODUCT_BOOT_JARS += \
-    camerax-vendor-extensions \
-    vendor.xiaomi.hardware.misys-V1.0-java \
-    vendor.xiaomi.hardware.misys-V2.0-java \
-    vendor.xiaomi.hardware.misys-V4.0-java \
-    vendor.xiaomi.hardware.misys.V3_0
+    camerax-vendor-extensions
